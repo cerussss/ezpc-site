@@ -60,6 +60,7 @@ body{
 
 #branches{
     width: 20%;
+    min-width: 20%;
     float: left;
     background-color: #409E8E;
     min-height: 600px;
