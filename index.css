@@ -67,15 +67,26 @@ body{
    
 }
 
-#branches h3{
+#sidebar h3{
     color: white;
     font-weight: bold;
     margin-left: 5px;
 }
 
-.branches li{
+.branches{
+    padding: 15px;
+}
+
+.contact{
+    padding: 30px;
+}
+
+
+#sidebar li{
     color: white;
 }
+
+
 
 #image{
     margin-left: 5px;
@@ -86,6 +97,7 @@ body{
 }
 
 #image .image{
+    background-repeat: no-repeat;
     height: 100%;
     width: 80%;
     float: left;
