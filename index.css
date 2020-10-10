@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     line-height: 1.6em;
     background-color: #AFDFD7;
+    height: auto;
 }
 
 #navi-main{
@@ -54,16 +55,16 @@ body{
     width: 100%;
     height: auto;
     overflow: hidden;
-    max-height: 600px;
+    
 
 }
 
 #branches{
-
-    width: 20%;
     float: left;
     background-color: #409E8E;
-    min-height: 600px;
+    height: auto;
+    width: 20%;  
+    height: auto;
    
 }
 
@@ -73,28 +74,13 @@ body{
     margin-left: 5px;
 }
 
-.branches{
-    padding: 15px;
-}
-
-.contact{
-    padding: 30px;
-}
-
-
-#sidebar li{
-    color: white;
-}
-
-
-
-#image{
-    margin-left: 5px;
-    width: 100%;
-    height:auto;
-
+#sidebar p{
+    margin-left: 2vh;
     
 }
+
+
+
 
 #image .image{
     background-repeat: no-repeat;
@@ -102,31 +88,67 @@ body{
     width: 80%;
     float: left;
     margin-top: 10px;
+    block-size: auto;
 }
 
 #quote p{
     text-align: center;
     float: initial;
+    font-size: 12px;
     
    
 }
 
-#main-footer{
-    min-height: 100px;
+#main-footer{   
     background: white;
     color: black;
     text-align: center;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 300px;
 }
  
 
-@viewport{
-    zoom: 1.0;
-    width: extend-to-zoom;
-}
+@media (max-width:800px){
+    .logo{
+        height: 10vh;
+        width: 30vw;
 
-@-ms-viewport{
-    width: exten-to-zoom;
-    zoom: 1.0;
+    }
+    .navi a{
+        font-size: 55%;
+
+
+    }
+    #branches{
+        float: left;
+        background-color: #409E8E;
+        height: auto;
+        width: 20vw;  
+        line-height: 0.6em;
+        
+    }
+    #sidebar{
+        height: auto;
+    }
+    #sidebar h3{
+        color: white;
+        font-weight: bold;
+        margin-left: 5px;
+        font-size: 11px;
+    }
+    
+    #sidebar p{
+        margin-left: 2px;
+        font-size: 5px;
+    }
+    
+    #image .image{
+        width: 80%;
+        height: 
+    }
+    
+    #main-footer{
+    margin-top: 0px;
+    }
+   
 }
