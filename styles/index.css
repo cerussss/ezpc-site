@@ -8,6 +8,7 @@
 }
 
 body{
+    
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
 }
@@ -110,8 +111,8 @@ nav a:hover{
     color: black;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
-    height: 100PX;
+    height: 100px;
+    margin-top: 30 px;
 }
 
 #main-footer p{
@@ -145,6 +146,7 @@ nav a:hover{
     .contact a{
         color: yellow;
     }
+    
     #quote{
         font-size: 10px;
         color: yellow;
@@ -164,6 +166,7 @@ nav a:hover{
         margin-left: 15px;
     }
 }
+
 @media screen and (max-width:360px){
     #sidebar{
         width: 100%;
@@ -178,3 +181,4 @@ nav a:hover{
         margin-top: 10;
     }
 }    
+
