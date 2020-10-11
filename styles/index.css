@@ -164,4 +164,17 @@ nav a:hover{
         margin-left: 15px;
     }
 }
+@media screen and (max-width:360px){
+    #sidebar{
+        width: 100%;
+        background-color: #AFDFD7;
+        height: 350px;
+    }
 
+    #main-footer{   
+        
+        padding: 5px;
+        height: 100px;
+        margin-top: 10;
+    }
+}    
