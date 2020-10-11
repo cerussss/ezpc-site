@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     box-sizing: border-box;
-    overflow: hidden;
+   
     text-decoration: none;
 }
 
@@ -96,14 +96,14 @@ nav a:hover{
 #image .image{
     float: left;
     height: 100%;
-    width: 100%;
+    width: 80%;
 }
 
-#quote{
-   margin-top: 20px;
-   margin-left: 20px;
+#quote p{
    text-align: center;
-
+   padding: 100px;
+   color: black;
+  
 }
 
 #main-footer{   
@@ -147,7 +147,7 @@ nav a:hover{
     
     #quote{
         font-size: 10px;
-        color: yellow;
+
     }
 
 }
@@ -165,17 +165,4 @@ nav a:hover{
     }
 }
 
-@media screen and (max-width:360px){
-    #sidebar{
-        width: 100%;
-        background-color: #AFDFD7;
-        height: 350px;
-    }
-
-    #main-footer{   
-        padding: 5px;
-        height: 100px;
-        margin-top: 10px;
-    }
-}    
 
