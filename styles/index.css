@@ -112,12 +112,10 @@ nav a:hover{
     text-align: center;
     padding: 20px;
     height: 100px;
-    margin-top: 30 px;
-}
-
-#main-footer p{
     margin-top: 20px;
 }
+
+
  
 @media screen and (max-width:800px){
 
@@ -175,10 +173,9 @@ nav a:hover{
     }
 
     #main-footer{   
-        
         padding: 5px;
         height: 100px;
-        margin-top: 10;
+        margin-top: 10px;
     }
 }    
 
