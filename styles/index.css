@@ -8,7 +8,6 @@
 }
 
 body{
-    background-color: #AFDFD7;
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
 }
@@ -53,6 +52,8 @@ nav a:hover{
 
 #sidebar{
     width: 100%;
+    background-color: #AFDFD7;
+    height: 425px;
 }
 
 #branches{
@@ -108,9 +109,9 @@ nav a:hover{
     background: white;
     color: black;
     text-align: center;
-    padding: 30px;
-    margin-top: 75px;
-    height: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    height: 100PX;
 }
 
 #main-footer p{
@@ -144,7 +145,6 @@ nav a:hover{
     .contact a{
         color: yellow;
     }
-    
     #quote{
         font-size: 10px;
         color: yellow;
